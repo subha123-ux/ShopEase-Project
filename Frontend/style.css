@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-    font-size: 1.5em;
+    font-size: 3em;
     font-weight: bold;
     padding-left: 60px;
 }
@@ -267,8 +267,7 @@ nav ul {
 }
 
 .carousel {
-    position: relative;
-    max-width: 100%;
+    width: 100%;
     overflow: hidden;
     margin-top: 100px;
 }
@@ -279,6 +278,7 @@ nav ul {
     margin: auto;
     overflow: hidden;
     margin-top: -15px;
+    width: 100%;
 }
 
 /* Hide images by default */
@@ -510,3 +510,5 @@ nav ul {
 } 
 
 
+
+    
