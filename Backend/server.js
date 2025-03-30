@@ -17,7 +17,7 @@ app.get('/api/protected', protect, (req, res) => {
 
 app.get("/",(req,res)=>{
     res.send("Welcome to our backend");
-})
+});
 
 const PORT = process.env.PORT || 8000;
 
