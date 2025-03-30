@@ -84,7 +84,7 @@ function displayProducts(productList = products) {
         button.style.backgroundColor="#f1e7e7";
         button.addEventListener("click", function () {
             // seemore(product.id);
-            window.location.href = product.category + ".html";
+            window.location.href = "electronics.html";
         });
 
         div.appendChild(button);
