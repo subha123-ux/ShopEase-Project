@@ -15,6 +15,10 @@ app.get('/api/protected', protect, (req, res) => {
     res.json({ message: 'This is a protected route', user: req.user });
 });
 
+app.get("/",(req,res)=>{
+    res.send("Welcome to our backend");
+})
+
 const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, async () => {
